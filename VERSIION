@@ -1,39 +1,60 @@
-0.0.1
-	############################################################################
-	#                         MAIN INFORMATIONS                                #
-	############################################################################
-		* Creation date :2023/12/19 
-		* Last build date : none.
-		* Last build contributor : iohack11@gmail.com		
-		* Realease date : none.
-		* Lead project conributor(s)
-			Valère Bertin - 
-		* Author(s) : 
-			Valère Bertin - iohack11gmail.com
-		* Review contributor(s) :
-			none.		
-		* Minimum JRE : 1.6
-		* Required libraries : 
-			none.
-		* Desciptipn :
-			First version.
-			Adds further capabilities of java.util.Properties class :
-				Design patter singleton.		
-			 
-	############################################################################
-	#                          WHAT'S NEW ?                                    #
-	############################################################################                          
-		* First version.
-			Provide base classes listed below.
-		
+############################################################################
+#                          VERSION 1.0.0                                   #
+############################################################################
+
+
+
+############################################################################
+#                         MAIN INFORMATIONS                                #
+############################################################################
+	* Creation date: 2023/12/19 
+	* Last build date: none.
+	* Last build contributor: Valère Bertin - iohack11@gmail.com		
+	* Release date: none.
+	* Lead project contributor(s):
+		Valère Bertin - 
+	* Author(s): 
+		Valère Bertin - iohack11@gmail.com
+	* Review contributor(s):
+		none.		
+	* Minimum JRE: 1.6
+	* Required libraries: 
+		none.
+	* Description:
+		First version.
+		Adds further capabilities to the java.util.Properties class:
+			Design pattern: singleton.		
+
+############################################################################
+#                          WHAT'S NEW?                                    #
+############################################################################                          
+	* First version.
+		Provides base classes listed below.
+
+############################################################################
+#                          BASE CLASSES                                    #
+############################################################################
+	* Class: fr.vbt.util.PropertiesSingleton class 
+		Extends java.util.Properties class.
+		Description:
+			Properties singleton for the entire lifetime of the application 
+				execution.
 	
-	############################################################################
-	#                          BASE CLASSES                                    #
-	############################################################################
-		* class : fr.vbt.util.PropertiesSingleton class 
-			Extends java.util.Properties class.
-			Description :
-				Properties singleton for all life time application execution.
+	* Class: fr.vbt.util.StringsProperties class
+		Extends java.util.Properties class.
+		Description:
+			Provide fr.vbt.util.StringsProperties.getStringKeys to get a simply 
+				strings array of keys.
+			
+	* Class:  fr.vbt.util.RestrictedStringsProperties class
+		Extends java.util.Properties class.
+		Description:
+			Provide attributs and methods enhancing fr.vbt.util.StringsProperties class :
+				Getting all keys as string array.
+				Needed keys list.
+				Needed key vlues list.
+				Needed non empty key vlues list.
 				
-					
-		
+				
+				
+			 
