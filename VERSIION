@@ -1,0 +1,39 @@
+0.0.1
+	############################################################################
+	#                         MAIN INFORMATIONS                                #
+	############################################################################
+		* Creation date :2023/12/19 
+		* Last build date : none.
+		* Last build contributor : iohack11@gmail.com		
+		* Realease date : none.
+		* Lead project conributor(s)
+			Valère Bertin - 
+		* Author(s) : 
+			Valère Bertin - iohack11gmail.com
+		* Review contributor(s) :
+			none.		
+		* Minimum JRE : 1.6
+		* Required libraries : 
+			none.
+		* Desciptipn :
+			First version.
+			Adds further capabilities of java.util.Properties class :
+				Design patter singleton.		
+			 
+	############################################################################
+	#                          WHAT'S NEW ?                                    #
+	############################################################################                          
+		* First version.
+			Provide base classes listed below.
+		
+	
+	############################################################################
+	#                          BASE CLASSES                                    #
+	############################################################################
+		* class : fr.vbt.util.PropertiesSingleton class 
+			Extends java.util.Properties class.
+			Description :
+				Properties singleton for all life time application execution.
+				
+					
+		
